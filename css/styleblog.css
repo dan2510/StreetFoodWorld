@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #D32F2F; /* Color Principal: Rojo Cálido */
+}
+
+.card-text {
+    color: #424242; /* Color Neutro: Gris Oscuro */
+}
+
+footer a {
+    color: #FBC02D; /* Color Secundario: Amarillo Mostaza */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
