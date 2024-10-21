@@ -109,11 +109,6 @@ a:hover {
     height: 500px; /* Mantiene la proporción */
 }
 
-.logo:hover {
-    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse por encima (opcional) */
-    transition: transform 0.3s ease; /* Animación suave */
-}
-
 
 
 
