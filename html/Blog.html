@@ -5,28 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog - Street Food</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styleblog.css">
+    <link rel="stylesheet" href="../css/styleblog.css">
     <link rel="icon" href="../img/Logo.png" type="image/x-icon">
 </head>
 <body>
-    <header class="bg-danger text-white p-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="logo">
-                <h1>Street Food</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="../img/Logo.png" alt="Logo" height="50" class="d-inline-block align-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="../html/index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#menu">Menú</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="../html/Blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#nosotros">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="../html/Contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#preguntas">Preguntas Frecuentes</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#preguntas">Acerca de</a></li>
+                    </ul>
+                </div>
             </div>
-            <nav>
-                <ul class="nav">
-                    <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#menu">Menú</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#blog">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#nosotros">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#Nosotros">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#preguntas">Preguntas Frecuentes</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#preguntas">Acerca de</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        </nav>
+     </header>
 
     <main class="container mt-4">
         <h2 class="text-center">Blog de Street Food</h2>
@@ -65,14 +70,28 @@
         </div>
     </main>
 
-    <footer class="bg-dark text-white text-center p-3">
-        <p>&copy; 2024 Street Food World. Todos los derechos reservados.</p>
-        <p><a class="text-white" href="#">Política de Privacidad</a> | <a class="text-white" href="#">Contacto</a></p>
-    </footer>
 
     <!-- Bootstrap JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <div class="container">
+            <!-- Mapa embebido -->
+            <div class="map-container" style="margin-bottom: 20px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320.6352085743504!2d-84.21800804147931!3d10.07981558827387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e40bfab617ab%3A0x49d4fa865b5dd7b1!2sSan%20Jos%C3%A9%20Province%2C%20Sabanilla!5e1!3m2!1sen!2scr!4v1729479668477!5m2!1sen!2scr" width="100%" 
+                height="250" 
+                style="border:0;" 
+                allowfullscreen="" 
+                aria-hidden="false" 
+                tabindex="0"></iframe>
+            </div>
+    
+            <!-- Información del footer -->
+            <p>&copy; 2024 Street Food. Todos los derechos reservados.</p>
+            <p><a class="text-white" href="#">Política de Privacidad</a> | <a class="text-white" href="#">Contacto</a></p>
+        </div>
+    </footer>
 </body>
 </html>
