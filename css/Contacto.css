@@ -28,10 +28,15 @@ a:hover {
 .nav-link:hover {
     color: #FBC02D; /* Amarillo Mostaza */
 }
+/* Aumenta el tamaño del logo */
+.navbar-brand img {
+    height: 80px; /* Ajusta la altura del logo */
+    width: auto;  /* Mantiene la proporción del ancho de la imagen */
+}
 
 /* Button */
 .btn-primary {
-    background-color: #D32F2F; /* Rojo Cálido */
+    background-color:#D32F2F; /* Rojo Cálido */
     border: none;
 }
 

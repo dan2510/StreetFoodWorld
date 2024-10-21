@@ -5,20 +5,7 @@ body {
     background-color: #FFF8E1; /* Color de Fondo: Beige Claro */
 }
 
-header {
-    background-color: #D32F2F; /* Color Principal: Rojo Cálido */
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-}
-
-header h1 {
-    margin: 0;
-    color: #FFF; /* White for contrast */
-}
-
+/* Header */
 .navbar {
     background-color: #D32F2F; /* Rojo Cálido */
 }
@@ -30,6 +17,12 @@ header h1 {
 .nav-link:hover {
     color: #FBC02D; /* Amarillo Mostaza */
 }
+/* Aumenta el tamaño del logo */
+.navbar-brand img {
+    height: 95px; /* Ajusta la altura del logo */
+    width: auto;  /* Mantiene la proporción del ancho de la imagen */
+}
+
 
 .banner {
     background-image: url('banner.jpg');
@@ -105,3 +98,12 @@ p {
     line-height: 1.5; /* Increased line height for readability */
     margin-bottom: 20px; /* Space below the paragraph */
 }
+
+/* Asegura que todas las imágenes dentro de las tarjetas tengan el mismo tamaño */
+.card-img-top {
+    width: 100%;              /* Ocupa todo el ancho del contenedor */
+    height: 250px;             /* Fija la altura de las imágenes */
+    object-fit: cover;         /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
+    object-position: center;   /* Centra la imagen si se recorta */
+}
+
