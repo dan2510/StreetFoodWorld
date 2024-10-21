@@ -28,7 +28,6 @@ body {
     background-image: url('../img/imagen\ con\ diferentes\ partes\ del\ mundo.avif');
     background-size: cover;
     text-align: center;
-    
     padding: 100px 20px;
     color: white;
 }
@@ -47,9 +46,12 @@ body {
     text-align: center;
 }
 
-.tarjeta:hover {
+.card:hover {
     border: 2px solid #8BC34A; /* Color de Acento: Verde Lima */
+    transform: scale(1.05);
+
 }
+
 
 footer {
     background-color: #424242; /* Color Neutro: Gris Oscuro */
@@ -94,6 +96,7 @@ footer {
 .btn-primary {
     background-color:#D32F2F; /* Rojo Cálido */
     border: none;
+
 }
 
 /* Styling for the paragraph */
