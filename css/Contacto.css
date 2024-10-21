@@ -54,7 +54,7 @@ a:hover {
 }
 
 .form-control:focus {
-    border-color: #FBC02D; /* Amarillo Mostaza */
+    border-color: #131212; /* Amarillo Mostaza */
     box-shadow: 0 0 5px rgba(251, 192, 45, 0.5);
 }
 
@@ -96,6 +96,17 @@ a:hover {
 .spinner {
     border: 8px solid #FBC02D; /* Amarillo Mostaza */
     border-top: 8px solid #D32F2F; /* Rojo Cálido */
+}
+
+/* Ajusta el tamaño del logo */
+.logo {
+    width: 500px; /* Ajusta el ancho como desees */
+    height: 500px; /* Mantiene la proporción */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse por encima (opcional) */
+    transition: transform 0.3s ease; /* Animación suave */
 }
 
 
