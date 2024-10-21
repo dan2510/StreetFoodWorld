@@ -25,9 +25,10 @@ body {
 
 
 .banner {
-    background-image: url('banner.jpg');
+    background-image: url('../img/imagen\ con\ diferentes\ partes\ del\ mundo.avif');
     background-size: cover;
     text-align: center;
+    
     padding: 100px 20px;
     color: white;
 }
@@ -89,6 +90,10 @@ footer {
     color: black; /* Black color for the heading */
     font-size: 2em; /* Adjust font size as needed */
     margin-bottom: 10px; /* Space below the heading */
+}
+.btn-primary {
+    background-color:#D32F2F; /* Rojo Cálido */
+    border: none;
 }
 
 /* Styling for the paragraph */
