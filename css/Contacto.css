@@ -30,9 +30,6 @@ a:hover {
     color: white; 
 }
 
-.nav-link:hover {
-    color: #FBC02D; /* Amarillo Mostaza */
-}
 /* Aumenta el tamaño del logo */
 .navbar-brand img {
     height: 95px; /* Ajusta la altura del logo */

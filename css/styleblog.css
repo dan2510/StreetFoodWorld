@@ -17,9 +17,6 @@ body{
     color: white; 
 }
 
-.nav-link:hover {
-    color: #FBC02D; /* Amarillo Mostaza */
-}
 /* Aumenta el tamaño del logo */
 .navbar-brand img {
     height: 95px; /* Ajusta la altura del logo */
@@ -29,6 +26,14 @@ body{
     margin-right: 20px; 
 }
 
+.btn-primary {
+    background-color:#D32F2F; /* Rojo Cálido */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #8BC34A; /* Verde Lima (Acento) */
+}
 
 .card-img-top {
     width: 100%;              /* Ocupa todo el ancho del contenedor */
