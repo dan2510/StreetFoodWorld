@@ -3,17 +3,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #FFF8E1; /* Beige Claro */
     margin: 0;
-    padding: px;
+    padding: 0;
 
 }
 
-.container {
-    max-width: 800px; /* Ancho máximo de la página */
-    margin: 0 auto; /* Centrado horizontal */
-    background:FFF8E1;
-    padding: 20px;
-    border-radius: 8px; /* Bordes redondeados */
-}
 
 h1 {
     text-align: center; /* Centrado del título */
