@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #FFF8E1; /* Beige Claro */
     margin: 0;
-    padding: 50px;
+    padding: 0px;
 
 }
 
@@ -67,19 +67,15 @@ a:hover {
     border: 1px solid #D32F2F; /* Rojo Cálido */
 }
 
-.form-control:focus {
-    border-color: #131212; /* Amarillo Mostaza */
-    box-shadow: 0 0 5px rgba(251, 192, 45, 0.5);
-}
 
 /* Spinner (Loader) */
 #loader {
-    background-color: #FFF8E1; /* Beige Claro */
+    background-color: #FFF8E1; 
 }
 
 .spinner {
-    border: 8px solid #FBC02D; /* Amarillo Mostaza */
-    border-top: 8px solid #D32F2F; /* Rojo Cálido */
+    border: 8px solid #FBC02D; 
+    border-top: 8px solid #D32F2F; 
 }
 
 /* Ajusta el tamaño del logo */

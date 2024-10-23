@@ -1,4 +1,11 @@
+body{
 
+    font-family: Arial, sans-serif;
+    background-color: #FFF8E1; /* Beige Claro */
+    margin: 0;
+    padding: 0px;
+
+}
 /* Header */
 .navbar {
     background-color: #D32F2F; /* Rojo Cálido */
