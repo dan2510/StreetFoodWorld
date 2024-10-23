@@ -30,6 +30,13 @@ body{
 }
 
 
+.card-img-top {
+    width: 100%;              /* Ocupa todo el ancho del contenedor */
+    height: 250px;             /* Fija la altura de las imágenes */
+    object-fit: cover;         /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
+    object-position: center;   /* Centra la imagen si se recorta */
+}
+
 .card {
     border: none;
     transition: transform 0.2s;
