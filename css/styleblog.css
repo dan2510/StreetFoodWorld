@@ -1,5 +1,4 @@
 body{
-
     font-family: Arial, sans-serif;
     background-color: #FFF8E1; /* Beige Claro */
     margin: 0;
@@ -23,7 +22,7 @@ body{
 }
 /* Aumenta el tamaño del logo */
 .navbar-brand img {
-    height: 80px; /* Ajusta la altura del logo */
+    height: 95px; /* Ajusta la altura del logo */
     width: auto;  /* Mantiene la proporción del ancho de la imagen */
 }
 .navbar-nav .nav-item {
