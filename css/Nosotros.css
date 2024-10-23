@@ -18,9 +18,7 @@ body {
     color: white; 
 }
 
-.nav-link:hover {
-    color: #FBC02D; 
-}
+
 /* Aumenta el tamaño del logo */
 .navbar-brand img {
     height: 95px; /* Ajusta la altura del logo */
@@ -84,7 +82,7 @@ ul {
     margin-bottom: 20px;
 }
 
-ul li {
+section li {
     font-size: 1.1rem;
     margin-bottom: 10px;
 }
@@ -114,6 +112,8 @@ ul li {
     text-decoration: none;
     transition: background-color 0.3s, transform 0.3s;
   }
+  
+  /*iconos sociles*/
   
   .social-sidebar a:hover {
     transform: scale(1.1);
