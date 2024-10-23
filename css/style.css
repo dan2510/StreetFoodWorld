@@ -113,5 +113,6 @@ p {
     height: 250px;             /* Fija la altura de las imágenes */
     object-fit: cover;         /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
     object-position: center;   /* Centra la imagen si se recorta */
+}#inicio {
+    color: white;
 }
-
