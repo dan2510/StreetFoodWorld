@@ -25,6 +25,9 @@ body {
     height: 95px; /* Ajusta la altura del logo */
     width: auto;  /* Mantiene la proporción del ancho de la imagen */
 }
+.navbar-nav .nav-item {
+    margin-right: 20px; 
+}
 
 
 .banner {

@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #FFF8E1; /* Beige Claro */
@@ -17,12 +17,14 @@ a:hover {
     color: #8BC34A; /* Verde Lima (Acento) */
 }
 
+
 /* Header */
 .navbar {
     background-color: #D32F2F; /* Rojo Cálido */
 }
 
 .nav-link {
+    
     font-size: 1.2em; 
     font-weight: bold; 
     color: white; 
@@ -36,6 +38,12 @@ a:hover {
     height: 80px; /* Ajusta la altura del logo */
     width: auto;  /* Mantiene la proporción del ancho de la imagen */
 }
+.navbar-nav .nav-item {
+    margin-right: 20px; 
+}
+
+
+
 
 /* Button */
 .btn-primary {
@@ -65,36 +73,6 @@ a:hover {
     border-color: #131212; /* Amarillo Mostaza */
     box-shadow: 0 0 5px rgba(251, 192, 45, 0.5);
 }
-
-/* Parallax Section */
-.parallax-section {
-    position: relative;
-    background-color: #FFF8E1; /* Beige Claro */
-}
-
-.parallax-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(50%);
-    z-index: -1;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(66, 66, 66, 0.6); /* Gris Oscuro con transparencia */
-    z-index: -1;
-}
-
-
 
 /* Spinner (Loader) */
 #loader {

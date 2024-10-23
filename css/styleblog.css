@@ -1,10 +1,14 @@
+
 /* Header */
 .navbar {
     background-color: #D32F2F; /* Rojo Cálido */
 }
 
 .nav-link {
-    color: #FFF8E1; /* Beige Claro */
+    
+    font-size: 1.2em; 
+    font-weight: bold; 
+    color: white; 
 }
 
 .nav-link:hover {
@@ -14,9 +18,11 @@
 .navbar-brand img {
     height: 80px; /* Ajusta la altura del logo */
     width: auto;  /* Mantiene la proporción del ancho de la imagen */
-}body {
-    font-family: Arial, sans-serif;
 }
+.navbar-nav .nav-item {
+    margin-right: 20px; 
+}
+
 
 .card {
     border: none;
