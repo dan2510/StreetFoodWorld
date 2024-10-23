@@ -91,9 +91,7 @@ body {
     margin: 10px 0;
 }
 
-.menu-item span {
-    font-weight: bold;
-    color: #FBC02D; 
+
 }h2 {
     color: black; 
     font-size: 2em; 
@@ -249,9 +247,9 @@ body {
 }
 
 .map-container {
-    background-color: #28a745; /* Color de fondo verde */
+    background-color: #8BC34A; /* Color de fondo verde */
     padding: 10px; /* Espaciado interno del contenedor del mapa */
-    border-radius: 8px; /* Bordes redondeados */
+    border-radius: 5px; /* Bordes redondeados */
     flex: 1; /* Tomar espacio disponible */
 }
 
