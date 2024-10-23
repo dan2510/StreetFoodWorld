@@ -41,14 +41,73 @@
     color: #424242; /* Color Neutro: Gris Oscuro */
 }
 
-footer a {
-    color: #FBC02D; /* Color Secundario: Amarillo Mostaza */
+footer {
+    background-color: #333; 
+    text-align: center; 
+    padding: 20px; 
 }
 
-footer a:hover {
-    text-decoration: underline;
+.footer-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex; /* Flex para acomodar el contenido en filas */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: flex-start; /* Alinear elementos al inicio */
 }
-.btn-primary {
-    background-color:#D32F2F; /* Rojo Cálido */
-    border: none;
+
+.footer-info {
+    flex: 1; /* Tomar espacio disponible */
+    padding-right: 20px; /* Espacio a la derecha para separación */
+}
+
+.footer-info h2 {
+    margin: 10px 0; /* Margen alrededor del título */
+    color: #fff;
+}
+
+.footer-info p {
+    margin: 5px 0; /* Margen alrededor de los párrafos */
+    color: #FFF;
+}
+
+.footer-social {
+    margin: 20px 0; /* Margen superior e inferior para el bloque de redes sociales */
+    
+}
+
+.footer-social h3 {
+    margin-bottom: 10px; /* Margen inferior para el encabezado de redes sociales */
+    color: #FFF;
+}
+
+.footer-social a {
+    display: inline-block; /* Enlaces en línea */
+    color: #fff; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    margin: 5px; /* Margen alrededor de los enlaces */
+    transition: color 0.3s; /* Transición suave al cambiar el color */
+}
+
+.footer-social a:hover {
+    color: #f1c40f; /* Color al pasar el mouse */
+}
+
+.map-container {
+    background-color: #8BC34A; /* Color de fondo verde */
+    padding: 10px; /* Espaciado interno del contenedor del mapa */
+    border-radius: 5px; /* Bordes redondeados */
+    flex: 1; /* Tomar espacio disponible */
+}
+
+.map-container iframe {
+    border-radius: 5px; /* Bordes redondeados para el iframe */
+}
+
+.footer-bottom {
+    border-top: 1px solid #444; /* Línea superior para separar el contenido */
+    padding-top: 10px; /* Espaciado superior del bloque inferior */
+}
+
+.footer-bottom p {
+    margin: 0; /* Sin margen para el párrafo en el bloque inferior */
 }
