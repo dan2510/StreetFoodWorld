@@ -2,9 +2,10 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #FFF8E1; /* Beige Claro */
-    font-family: 'Orbitron', sans-serif;
+   
     margin: 0;
     padding: 0;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -89,6 +90,53 @@ a:hover {
 }
 
 
+.social-sidebar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-sidebar a {
+    margin: 10px 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .social-sidebar a:hover {
+    transform: scale(1.1);
+  }
+
+    
+  /* Tamaño de inconos */
+  .social-sidebar a i {
+    font-size: 29px;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .whatsapp {
+    background-color: #25d366;
+  }
+  
+  .phone {
+    background-color: #4CAF50;
+  }
+  
 
  /*Pie de pagina*/
 
