@@ -1,0 +1,175 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF8E1; /* Beige Claro */
+    margin: 0;
+    padding: 150px 0;
+    color: #333; /* Color de texto oscuro */
+}
+
+
+
+/* Header */
+.navbar {
+    background-color: #D32F2F; 
+}
+
+.nav-link {
+    
+    font-size: 1.2em; 
+    font-weight: bold; 
+    color: white; 
+}
+
+/* Aumenta el tamaño del logo */
+.navbar-brand img {
+    height: 95px; /* Ajusta la altura del logo */
+    width: auto;  /* Mantiene la proporción del ancho de la imagen */
+}
+.navbar-nav .nav-item {
+    margin-right: 20px; 
+}
+
+
+.card {
+    width: 300px; /* Ancho fijo para la tarjeta */
+    margin: 20px auto; /* Centra la tarjeta horizontalmente y agrega margen vertical */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Para evitar que el contenido sobresalga */
+}
+
+.card-img-top {
+    width: 100%; /* Asegura que la imagen se ajuste al ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.card-body {
+    text-align: center; /* Centra el texto dentro de la tarjeta */
+}
+
+.card-title {
+    font-weight: 600; /* Peso de fuente para el título */
+    margin: 10px 0; /* Margen para separación */
+}
+
+
+
+.social-sidebar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-sidebar a {
+    margin: 10px 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .social-sidebar a:hover {
+    transform: scale(1.1);
+  }
+
+    
+  /* Tamaño de inconos */
+  .social-sidebar a i {
+    font-size: 29px;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .whatsapp {
+    background-color: #25d366;
+  }
+  
+  .phone {
+    background-color: #4CAF50;
+  }
+  
+
+  footer {
+    background-color: #333; 
+    text-align: center; 
+    padding: 20px; 
+
+}
+
+.footer-container {
+    max-width: 1200px; 
+    margin: 0 30px; 
+    display: flex; /* Flex para acomodar el contenido en filas */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: flex-start; /* Alinear elementos al inicio */
+}
+
+.footer-info {
+    flex: 1; /* Tomar espacio disponible */
+    padding-right: 20px; /* Espacio a la derecha para separación */
+}
+
+.footer-info h2 {
+    margin: 10px 0; /* Margen alrededor del título */
+    color: #fff;
+}
+
+.footer-info p {
+    margin: 5px 0; /* Margen alrededor de los párrafos */
+    color: #FFF;
+}
+
+.footer-social {
+    margin: 20px 0; /* Margen superior e inferior para el bloque de redes sociales */
+    
+}
+
+.footer-social h3 {
+    margin-bottom: 10px; /* Margen inferior para el encabezado de redes sociales */
+    color: #FFF;
+}
+
+.footer-social a {
+    display: inline-block; /* Enlaces en línea */
+    color: #fff; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    margin: 5px; /* Margen alrededor de los enlaces */
+    transition: color 0.3s; /* Transición suave al cambiar el color */
+}
+
+.footer-social a:hover {
+    color:  #8BC34A; /* Color al pasar el mouse */
+}
+
+.map-container {
+    background-color: #8BC34A; /* Color de fondo verde */
+    padding: 10px; /* Espaciado interno del contenedor del mapa */
+    border-radius: 5px; /* Bordes redondeados */
+    flex: 1; /* Tomar espacio disponible */
+}
+
+.map-container iframe {
+    border-radius: 5px; /* Bordes redondeados para el iframe */
+}
+
+.footer-bottom {
+    border-top: 1px solid #444; /* Línea superior para separar el contenido */
+    padding-top: 10px; /* Espaciado superior del bloque inferior */
+}
+
+.footer-bottom p {
+    margin: 0; /* Sin margen para el párrafo en el bloque inferior */
+}
