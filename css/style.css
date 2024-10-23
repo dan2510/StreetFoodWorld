@@ -100,7 +100,7 @@ body {
     margin-bottom: 10px;
 }
 .btn-primary {
-    background-color:#D32F2F; /* Rojo Cálido */
+    background-color:#D32F2F; 
     border: none;
 
 }
@@ -198,60 +198,72 @@ body {
   /*Pie de pagina*/
 
   footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    background-color: #333; 
+    text-align: center; 
+    padding: 20px; 
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px 0;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex; /* Flex para acomodar el contenido en filas */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: flex-start; /* Alinear elementos al inicio */
 }
 
 .footer-info {
-    flex: 1;
+    flex: 1; /* Tomar espacio disponible */
+    padding-right: 20px; /* Espacio a la derecha para separación */
 }
 
 .footer-info h2 {
-    margin: 0;
-    color: white;
+    margin: 10px 0; /* Margen alrededor del título */
+    color: #fff;
 }
 
 .footer-info p {
-    margin: 5px 0;
-    color: white;
+    margin: 5px 0; /* Margen alrededor de los párrafos */
+    color: #FFF;
 }
 
 .footer-social {
-    flex: 1;
+    margin: 20px 0; /* Margen superior e inferior para el bloque de redes sociales */
+    
 }
 
 .footer-social h3 {
-    margin: 0;
-    color: white;
+    margin-bottom: 10px; /* Margen inferior para el encabezado de redes sociales */
+    color: #FFF;
 }
 
 .footer-social a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    margin: 5px 0;
+    display: inline-block; /* Enlaces en línea */
+    color: #fff; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    margin: 5px; /* Margen alrededor de los enlaces */
+    transition: color 0.3s; /* Transición suave al cambiar el color */
 }
 
 .footer-social a:hover {
-    text-decoration: underline;
+    color: #f1c40f; /* Color al pasar el mouse */
+}
+
+.map-container {
+    background-color: #28a745; /* Color de fondo verde */
+    padding: 10px; /* Espaciado interno del contenedor del mapa */
+    border-radius: 8px; /* Bordes redondeados */
+    flex: 1; /* Tomar espacio disponible */
+}
+
+.map-container iframe {
+    border-radius: 5px; /* Bordes redondeados para el iframe */
 }
 
 .footer-bottom {
-    padding: 10px 0;
-    border-top: 1px solid #444;
+    border-top: 1px solid #444; /* Línea superior para separar el contenido */
+    padding-top: 10px; /* Espaciado superior del bloque inferior */
 }
 
 .footer-bottom p {
-    margin: 0;
+    margin: 0; /* Sin margen para el párrafo en el bloque inferior */
 }
-
-
