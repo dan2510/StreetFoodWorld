@@ -23,7 +23,9 @@ a:hover {
 }
 
 .nav-link {
-    color: #FFF8E1; /* Beige Claro */
+    font-size: 1.2em; 
+    font-weight: bold; 
+    color: white; 
 }
 
 .nav-link:hover {
