@@ -4,11 +4,19 @@ body {
     margin: 0;
     padding: 150px 0;
     color: #333; /* Color de texto oscuro */
+    
+    
 }
 
+.about-me, .project {
+    max-width: 800px; /* Ancho máximo de las secciones */
+    margin: 20px; /* Espaciado entre secciones */
+    padding: 20px; /* Espaciado interno */
 
+    text-align: center; /* Centra el texto dentro de las secciones */
+    margin: 20px auto
+}
 
-/* Header */
 .navbar {
     background-color: #D32F2F; 
 }
