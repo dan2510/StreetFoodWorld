@@ -19,6 +19,7 @@ h1 {
     text-align: center; /* Centrado del título */
     color: #333; /* Color del texto */
 }
+
 /* Header */
 .navbar {
     background-color: #D32F2F; 
@@ -44,7 +45,7 @@ h1 {
 }
 
 .faq {
-    margin-top: 20px; /* Espaciado superior para la sección FAQ */
+    margin-top: 100px; /* Espaciado superior para la sección FAQ */
 }
 
 .faq-item {
@@ -58,12 +59,13 @@ h1 {
 
 .faq-question {
     cursor: pointer; /* Cambia el cursor al pasar el mouse */
-    color: #007bff; /* Color azul para la pregunta */
+    color: black; /* Color azul para la pregunta */
     transition: color 0.3s; /* Transición de color */
+    font-weight: bold;
 }
 
 .faq-question:hover {
-    color: #0056b3; /* Color al pasar el mouse */
+    color: #8BC34A;; /* Color al pasar el mouse */
 }
 
 .faq-answer {
